@@ -1,0 +1,956 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "demo-test",
+        "directory": "/home/sofiane/work/M1/S2/software_archi/software_architecture/demo",
+        "workspaceDir": "/home/sofiane/work/M1/S2/software_archi/software_architecture/demo",
+        "sources": [
+            "/home/sofiane/work/M1/S2/software_archi/software_architecture/demo/src/test/java"
+        ],
+        "dependencies": [
+            "demo"
+        ],
+        "classpath": [
+            "/home/sofiane/work/M1/S2/software_archi/software_architecture/demo/target/test-classes",
+            "/home/sofiane/work/M1/S2/software_archi/software_architecture/demo/target/classes",
+            "/home/sofiane/.m2/repository/org/springframework/boot/spring-boot-starter/4.0.2/spring-boot-starter-4.0.2.jar",
+            "/home/sofiane/.m2/repository/org/springframework/boot/spring-boot-starter-logging/4.0.2/spring-boot-starter-logging-4.0.2.jar",
+            "/home/sofiane/.m2/repository/ch/qos/logback/logback-classic/1.5.25/logback-classic-1.5.25.jar",
+            "/home/sofiane/.m2/repository/ch/qos/logback/logback-core/1.5.25/logback-core-1.5.25.jar",
+            "/home/sofiane/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.25.3/log4j-to-slf4j-2.25.3.jar",
+            "/home/sofiane/.m2/repository/org/apache/logging/log4j/log4j-api/2.25.3/log4j-api-2.25.3.jar",
+            "/home/sofiane/.m2/repository/org/slf4j/jul-to-slf4j/2.0.17/jul-to-slf4j-2.0.17.jar",
+            "/home/sofiane/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/4.0.2/spring-boot-autoconfigure-4.0.2.jar",
+            "/home/sofiane/.m2/repository/org/springframework/boot/spring-boot/4.0.2/spring-boot-4.0.2.jar",
+            "/home/sofiane/.m2/repository/org/springframework/spring-context/7.0.3/spring-context-7.0.3.jar",
+            "/home/sofiane/.m2/repository/org/springframework/spring-aop/7.0.3/spring-aop-7.0.3.jar",
+            "/home/sofiane/.m2/repository/org/springframework/spring-beans/7.0.3/spring-beans-7.0.3.jar",
+            "/home/sofiane/.m2/repository/org/springframework/spring-expression/7.0.3/spring-expression-7.0.3.jar",
+            "/home/sofiane/.m2/repository/io/micrometer/micrometer-observation/1.16.2/micrometer-observation-1.16.2.jar",
+            "/home/sofiane/.m2/repository/io/micrometer/micrometer-commons/1.16.2/micrometer-commons-1.16.2.jar",
+            "/home/sofiane/.m2/repository/jakarta/annotation/jakarta.annotation-api/3.0.0/jakarta.annotation-api-3.0.0.jar",
+            "/home/sofiane/.m2/repository/org/yaml/snakeyaml/2.5/snakeyaml-2.5.jar",
+            "/home/sofiane/.m2/repository/org/springframework/boot/spring-boot-starter-test/4.0.2/spring-boot-starter-test-4.0.2.jar",
+            "/home/sofiane/.m2/repository/org/springframework/boot/spring-boot-test/4.0.2/spring-boot-test-4.0.2.jar",
+            "/home/sofiane/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/4.0.2/spring-boot-test-autoconfigure-4.0.2.jar",
+            "/home/sofiane/.m2/repository/com/jayway/jsonpath/json-path/2.10.0/json-path-2.10.0.jar",
+            "/home/sofiane/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar",
+            "/home/sofiane/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.4/jakarta.xml.bind-api-4.0.4.jar",
+            "/home/sofiane/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.4/jakarta.activation-api-2.1.4.jar",
+            "/home/sofiane/.m2/repository/net/minidev/json-smart/2.6.0/json-smart-2.6.0.jar",
+            "/home/sofiane/.m2/repository/net/minidev/accessors-smart/2.6.0/accessors-smart-2.6.0.jar",
+            "/home/sofiane/.m2/repository/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar",
+            "/home/sofiane/.m2/repository/org/assertj/assertj-core/3.27.6/assertj-core-3.27.6.jar",
+            "/home/sofiane/.m2/repository/net/bytebuddy/byte-buddy/1.17.8/byte-buddy-1.17.8.jar",
+            "/home/sofiane/.m2/repository/org/awaitility/awaitility/4.3.0/awaitility-4.3.0.jar",
+            "/home/sofiane/.m2/repository/org/hamcrest/hamcrest/3.0/hamcrest-3.0.jar",
+            "/home/sofiane/.m2/repository/org/junit/jupiter/junit-jupiter/6.0.2/junit-jupiter-6.0.2.jar",
+            "/home/sofiane/.m2/repository/org/junit/jupiter/junit-jupiter-api/6.0.2/junit-jupiter-api-6.0.2.jar",
+            "/home/sofiane/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar",
+            "/home/sofiane/.m2/repository/org/junit/platform/junit-platform-commons/6.0.2/junit-platform-commons-6.0.2.jar",
+            "/home/sofiane/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar",
+            "/home/sofiane/.m2/repository/org/junit/jupiter/junit-jupiter-params/6.0.2/junit-jupiter-params-6.0.2.jar",
+            "/home/sofiane/.m2/repository/org/junit/jupiter/junit-jupiter-engine/6.0.2/junit-jupiter-engine-6.0.2.jar",
+            "/home/sofiane/.m2/repository/org/junit/platform/junit-platform-engine/6.0.2/junit-platform-engine-6.0.2.jar",
+            "/home/sofiane/.m2/repository/org/mockito/mockito-core/5.20.0/mockito-core-5.20.0.jar",
+            "/home/sofiane/.m2/repository/net/bytebuddy/byte-buddy-agent/1.17.8/byte-buddy-agent-1.17.8.jar",
+            "/home/sofiane/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar",
+            "/home/sofiane/.m2/repository/org/mockito/mockito-junit-jupiter/5.20.0/mockito-junit-jupiter-5.20.0.jar",
+            "/home/sofiane/.m2/repository/org/skyscreamer/jsonassert/1.5.3/jsonassert-1.5.3.jar",
+            "/home/sofiane/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar",
+            "/home/sofiane/.m2/repository/org/springframework/spring-core/7.0.3/spring-core-7.0.3.jar",
+            "/home/sofiane/.m2/repository/commons-logging/commons-logging/1.3.5/commons-logging-1.3.5.jar",
+            "/home/sofiane/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar",
+            "/home/sofiane/.m2/repository/org/springframework/spring-test/7.0.3/spring-test-7.0.3.jar",
+            "/home/sofiane/.m2/repository/org/xmlunit/xmlunit-core/2.10.4/xmlunit-core-2.10.4.jar"
+        ],
+        "out": "/home/sofiane/work/M1/S2/software_archi/software_architecture/demo/target",
+        "classesDir": "/home/sofiane/work/M1/S2/software_archi/software_architecture/demo/target/test-classes",
+        "resources": [
+            "/home/sofiane/work/M1/S2/software_archi/software_architecture/demo/src/test/resources"
+        ],
+        "java": {
+            "options": [
+                "-g",
+                "--release",
+                "17",
+                "-encoding",
+                "UTF-8"
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework",
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "utest.runner.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    {
+                        "args": [
+                            "-v",
+                            "-a"
+                        ],
+                        "framework": {
+                            "names": [
+                                "com.novocode.junit.JUnitFramework"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/usr/lib/jvm/java-17-openjdk",
+                "options": [
+                    
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-core",
+                    "version": "1.5.25",
+                    "artifacts": [
+                        {
+                            "name": "logback-core",
+                            "path": "/home/sofiane/.m2/repository/ch/qos/logback/logback-core/1.5.25/logback-core-1.5.25.jar"
+                        },
+                        {
+                            "name": "logback-core",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/ch/qos/logback/logback-core/1.5.25/logback-core-1.5.25-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.jupiter",
+                    "name": "junit-jupiter",
+                    "version": "6.0.2",
+                    "artifacts": [
+                        {
+                            "name": "junit-jupiter",
+                            "path": "/home/sofiane/.m2/repository/org/junit/jupiter/junit-jupiter/6.0.2/junit-jupiter-6.0.2.jar"
+                        },
+                        {
+                            "name": "junit-jupiter",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/org/junit/jupiter/junit-jupiter/6.0.2/junit-jupiter-6.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-test-autoconfigure",
+                    "version": "4.0.2",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-test-autoconfigure",
+                            "path": "/home/sofiane/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/4.0.2/spring-boot-test-autoconfigure-4.0.2.jar"
+                        },
+                        {
+                            "name": "spring-boot-test-autoconfigure",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/4.0.2/spring-boot-test-autoconfigure-4.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.micrometer",
+                    "name": "micrometer-commons",
+                    "version": "1.16.2",
+                    "artifacts": [
+                        {
+                            "name": "micrometer-commons",
+                            "path": "/home/sofiane/.m2/repository/io/micrometer/micrometer-commons/1.16.2/micrometer-commons-1.16.2.jar"
+                        },
+                        {
+                            "name": "micrometer-commons",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/io/micrometer/micrometer-commons/1.16.2/micrometer-commons-1.16.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-starter-logging",
+                    "version": "4.0.2",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-starter-logging",
+                            "path": "/home/sofiane/.m2/repository/org/springframework/boot/spring-boot-starter-logging/4.0.2/spring-boot-starter-logging-4.0.2.jar"
+                        },
+                        {
+                            "name": "spring-boot-starter-logging",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/org/springframework/boot/spring-boot-starter-logging/4.0.2/spring-boot-starter-logging-4.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.micrometer",
+                    "name": "micrometer-observation",
+                    "version": "1.16.2",
+                    "artifacts": [
+                        {
+                            "name": "micrometer-observation",
+                            "path": "/home/sofiane/.m2/repository/io/micrometer/micrometer-observation/1.16.2/micrometer-observation-1.16.2.jar"
+                        },
+                        {
+                            "name": "micrometer-observation",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/io/micrometer/micrometer-observation/1.16.2/micrometer-observation-1.16.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.minidev",
+                    "name": "json-smart",
+                    "version": "2.6.0",
+                    "artifacts": [
+                        {
+                            "name": "json-smart",
+                            "path": "/home/sofiane/.m2/repository/net/minidev/json-smart/2.6.0/json-smart-2.6.0.jar"
+                        },
+                        {
+                            "name": "json-smart",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/net/minidev/json-smart/2.6.0/json-smart-2.6.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.bytebuddy",
+                    "name": "byte-buddy",
+                    "version": "1.17.8",
+                    "artifacts": [
+                        {
+                            "name": "byte-buddy",
+                            "path": "/home/sofiane/.m2/repository/net/bytebuddy/byte-buddy/1.17.8/byte-buddy-1.17.8.jar"
+                        },
+                        {
+                            "name": "byte-buddy",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/net/bytebuddy/byte-buddy/1.17.8/byte-buddy-1.17.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework",
+                    "name": "spring-beans",
+                    "version": "7.0.3",
+                    "artifacts": [
+                        {
+                            "name": "spring-beans",
+                            "path": "/home/sofiane/.m2/repository/org/springframework/spring-beans/7.0.3/spring-beans-7.0.3.jar"
+                        },
+                        {
+                            "name": "spring-beans",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/org/springframework/spring-beans/7.0.3/spring-beans-7.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.xmlunit",
+                    "name": "xmlunit-core",
+                    "version": "2.10.4",
+                    "artifacts": [
+                        {
+                            "name": "xmlunit-core",
+                            "path": "/home/sofiane/.m2/repository/org/xmlunit/xmlunit-core/2.10.4/xmlunit-core-2.10.4.jar"
+                        },
+                        {
+                            "name": "xmlunit-core",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/org/xmlunit/xmlunit-core/2.10.4/xmlunit-core-2.10.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-autoconfigure",
+                    "version": "4.0.2",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-autoconfigure",
+                            "path": "/home/sofiane/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/4.0.2/spring-boot-autoconfigure-4.0.2.jar"
+                        },
+                        {
+                            "name": "spring-boot-autoconfigure",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/4.0.2/spring-boot-autoconfigure-4.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework",
+                    "name": "spring-context",
+                    "version": "7.0.3",
+                    "artifacts": [
+                        {
+                            "name": "spring-context",
+                            "path": "/home/sofiane/.m2/repository/org/springframework/spring-context/7.0.3/spring-context-7.0.3.jar"
+                        },
+                        {
+                            "name": "spring-context",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/org/springframework/spring-context/7.0.3/spring-context-7.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "jul-to-slf4j",
+                    "version": "2.0.17",
+                    "artifacts": [
+                        {
+                            "name": "jul-to-slf4j",
+                            "path": "/home/sofiane/.m2/repository/org/slf4j/jul-to-slf4j/2.0.17/jul-to-slf4j-2.0.17.jar"
+                        },
+                        {
+                            "name": "jul-to-slf4j",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/org/slf4j/jul-to-slf4j/2.0.17/jul-to-slf4j-2.0.17-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.awaitility",
+                    "name": "awaitility",
+                    "version": "4.3.0",
+                    "artifacts": [
+                        {
+                            "name": "awaitility",
+                            "path": "/home/sofiane/.m2/repository/org/awaitility/awaitility/4.3.0/awaitility-4.3.0.jar"
+                        },
+                        {
+                            "name": "awaitility",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/org/awaitility/awaitility/4.3.0/awaitility-4.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework",
+                    "name": "spring-test",
+                    "version": "7.0.3",
+                    "artifacts": [
+                        {
+                            "name": "spring-test",
+                            "path": "/home/sofiane/.m2/repository/org/springframework/spring-test/7.0.3/spring-test-7.0.3.jar"
+                        },
+                        {
+                            "name": "spring-test",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/org/springframework/spring-test/7.0.3/spring-test-7.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.assertj",
+                    "name": "assertj-core",
+                    "version": "3.27.6",
+                    "artifacts": [
+                        {
+                            "name": "assertj-core",
+                            "path": "/home/sofiane/.m2/repository/org/assertj/assertj-core/3.27.6/assertj-core-3.27.6.jar"
+                        },
+                        {
+                            "name": "assertj-core",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/org/assertj/assertj-core/3.27.6/assertj-core-3.27.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.opentest4j",
+                    "name": "opentest4j",
+                    "version": "1.3.0",
+                    "artifacts": [
+                        {
+                            "name": "opentest4j",
+                            "path": "/home/sofiane/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar"
+                        },
+                        {
+                            "name": "opentest4j",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.hamcrest",
+                    "name": "hamcrest",
+                    "version": "3.0",
+                    "artifacts": [
+                        {
+                            "name": "hamcrest",
+                            "path": "/home/sofiane/.m2/repository/org/hamcrest/hamcrest/3.0/hamcrest-3.0.jar"
+                        },
+                        {
+                            "name": "hamcrest",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/org/hamcrest/hamcrest/3.0/hamcrest-3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-api",
+                    "version": "2.0.17",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-api",
+                            "path": "/home/sofiane/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jakarta.xml.bind",
+                    "name": "jakarta.xml.bind-api",
+                    "version": "4.0.4",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.xml.bind-api",
+                            "path": "/home/sofiane/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.4/jakarta.xml.bind-api-4.0.4.jar"
+                        },
+                        {
+                            "name": "jakarta.xml.bind-api",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.4/jakarta.xml.bind-api-4.0.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.mockito",
+                    "name": "mockito-junit-jupiter",
+                    "version": "5.20.0",
+                    "artifacts": [
+                        {
+                            "name": "mockito-junit-jupiter",
+                            "path": "/home/sofiane/.m2/repository/org/mockito/mockito-junit-jupiter/5.20.0/mockito-junit-jupiter-5.20.0.jar"
+                        },
+                        {
+                            "name": "mockito-junit-jupiter",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/org/mockito/mockito-junit-jupiter/5.20.0/mockito-junit-jupiter-5.20.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jspecify",
+                    "name": "jspecify",
+                    "version": "1.0.0",
+                    "artifacts": [
+                        {
+                            "name": "jspecify",
+                            "path": "/home/sofiane/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar"
+                        },
+                        {
+                            "name": "jspecify",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.yaml",
+                    "name": "snakeyaml",
+                    "version": "2.5",
+                    "artifacts": [
+                        {
+                            "name": "snakeyaml",
+                            "path": "/home/sofiane/.m2/repository/org/yaml/snakeyaml/2.5/snakeyaml-2.5.jar"
+                        },
+                        {
+                            "name": "snakeyaml",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/org/yaml/snakeyaml/2.5/snakeyaml-2.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jakarta.annotation",
+                    "name": "jakarta.annotation-api",
+                    "version": "3.0.0",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.annotation-api",
+                            "path": "/home/sofiane/.m2/repository/jakarta/annotation/jakarta.annotation-api/3.0.0/jakarta.annotation-api-3.0.0.jar"
+                        },
+                        {
+                            "name": "jakarta.annotation-api",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/jakarta/annotation/jakarta.annotation-api/3.0.0/jakarta.annotation-api-3.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework",
+                    "name": "spring-aop",
+                    "version": "7.0.3",
+                    "artifacts": [
+                        {
+                            "name": "spring-aop",
+                            "path": "/home/sofiane/.m2/repository/org/springframework/spring-aop/7.0.3/spring-aop-7.0.3.jar"
+                        },
+                        {
+                            "name": "spring-aop",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/org/springframework/spring-aop/7.0.3/spring-aop-7.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.logging.log4j",
+                    "name": "log4j-api",
+                    "version": "2.25.3",
+                    "artifacts": [
+                        {
+                            "name": "log4j-api",
+                            "path": "/home/sofiane/.m2/repository/org/apache/logging/log4j/log4j-api/2.25.3/log4j-api-2.25.3.jar"
+                        },
+                        {
+                            "name": "log4j-api",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/org/apache/logging/log4j/log4j-api/2.25.3/log4j-api-2.25.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-starter-test",
+                    "version": "4.0.2",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-starter-test",
+                            "path": "/home/sofiane/.m2/repository/org/springframework/boot/spring-boot-starter-test/4.0.2/spring-boot-starter-test-4.0.2.jar"
+                        },
+                        {
+                            "name": "spring-boot-starter-test",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/org/springframework/boot/spring-boot-starter-test/4.0.2/spring-boot-starter-test-4.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.jupiter",
+                    "name": "junit-jupiter-api",
+                    "version": "6.0.2",
+                    "artifacts": [
+                        {
+                            "name": "junit-jupiter-api",
+                            "path": "/home/sofiane/.m2/repository/org/junit/jupiter/junit-jupiter-api/6.0.2/junit-jupiter-api-6.0.2.jar"
+                        },
+                        {
+                            "name": "junit-jupiter-api",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/org/junit/jupiter/junit-jupiter-api/6.0.2/junit-jupiter-api-6.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-classic",
+                    "version": "1.5.25",
+                    "artifacts": [
+                        {
+                            "name": "logback-classic",
+                            "path": "/home/sofiane/.m2/repository/ch/qos/logback/logback-classic/1.5.25/logback-classic-1.5.25.jar"
+                        },
+                        {
+                            "name": "logback-classic",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/ch/qos/logback/logback-classic/1.5.25/logback-classic-1.5.25-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.objenesis",
+                    "name": "objenesis",
+                    "version": "3.3",
+                    "artifacts": [
+                        {
+                            "name": "objenesis",
+                            "path": "/home/sofiane/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar"
+                        },
+                        {
+                            "name": "objenesis",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.jupiter",
+                    "name": "junit-jupiter-engine",
+                    "version": "6.0.2",
+                    "artifacts": [
+                        {
+                            "name": "junit-jupiter-engine",
+                            "path": "/home/sofiane/.m2/repository/org/junit/jupiter/junit-jupiter-engine/6.0.2/junit-jupiter-engine-6.0.2.jar"
+                        },
+                        {
+                            "name": "junit-jupiter-engine",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/org/junit/jupiter/junit-jupiter-engine/6.0.2/junit-jupiter-engine-6.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.minidev",
+                    "name": "accessors-smart",
+                    "version": "2.6.0",
+                    "artifacts": [
+                        {
+                            "name": "accessors-smart",
+                            "path": "/home/sofiane/.m2/repository/net/minidev/accessors-smart/2.6.0/accessors-smart-2.6.0.jar"
+                        },
+                        {
+                            "name": "accessors-smart",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/net/minidev/accessors-smart/2.6.0/accessors-smart-2.6.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.mockito",
+                    "name": "mockito-core",
+                    "version": "5.20.0",
+                    "artifacts": [
+                        {
+                            "name": "mockito-core",
+                            "path": "/home/sofiane/.m2/repository/org/mockito/mockito-core/5.20.0/mockito-core-5.20.0.jar"
+                        },
+                        {
+                            "name": "mockito-core",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/org/mockito/mockito-core/5.20.0/mockito-core-5.20.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.platform",
+                    "name": "junit-platform-engine",
+                    "version": "6.0.2",
+                    "artifacts": [
+                        {
+                            "name": "junit-platform-engine",
+                            "path": "/home/sofiane/.m2/repository/org/junit/platform/junit-platform-engine/6.0.2/junit-platform-engine-6.0.2.jar"
+                        },
+                        {
+                            "name": "junit-platform-engine",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/org/junit/platform/junit-platform-engine/6.0.2/junit-platform-engine-6.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot",
+                    "version": "4.0.2",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot",
+                            "path": "/home/sofiane/.m2/repository/org/springframework/boot/spring-boot/4.0.2/spring-boot-4.0.2.jar"
+                        },
+                        {
+                            "name": "spring-boot",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/org/springframework/boot/spring-boot/4.0.2/spring-boot-4.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.jupiter",
+                    "name": "junit-jupiter-params",
+                    "version": "6.0.2",
+                    "artifacts": [
+                        {
+                            "name": "junit-jupiter-params",
+                            "path": "/home/sofiane/.m2/repository/org/junit/jupiter/junit-jupiter-params/6.0.2/junit-jupiter-params-6.0.2.jar"
+                        },
+                        {
+                            "name": "junit-jupiter-params",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/org/junit/jupiter/junit-jupiter-params/6.0.2/junit-jupiter-params-6.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-test",
+                    "version": "4.0.2",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-test",
+                            "path": "/home/sofiane/.m2/repository/org/springframework/boot/spring-boot-test/4.0.2/spring-boot-test-4.0.2.jar"
+                        },
+                        {
+                            "name": "spring-boot-test",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/org/springframework/boot/spring-boot-test/4.0.2/spring-boot-test-4.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.skyscreamer",
+                    "name": "jsonassert",
+                    "version": "1.5.3",
+                    "artifacts": [
+                        {
+                            "name": "jsonassert",
+                            "path": "/home/sofiane/.m2/repository/org/skyscreamer/jsonassert/1.5.3/jsonassert-1.5.3.jar"
+                        },
+                        {
+                            "name": "jsonassert",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/org/skyscreamer/jsonassert/1.5.3/jsonassert-1.5.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.bytebuddy",
+                    "name": "byte-buddy-agent",
+                    "version": "1.17.8",
+                    "artifacts": [
+                        {
+                            "name": "byte-buddy-agent",
+                            "path": "/home/sofiane/.m2/repository/net/bytebuddy/byte-buddy-agent/1.17.8/byte-buddy-agent-1.17.8.jar"
+                        },
+                        {
+                            "name": "byte-buddy-agent",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/net/bytebuddy/byte-buddy-agent/1.17.8/byte-buddy-agent-1.17.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-logging",
+                    "name": "commons-logging",
+                    "version": "1.3.5",
+                    "artifacts": [
+                        {
+                            "name": "commons-logging",
+                            "path": "/home/sofiane/.m2/repository/commons-logging/commons-logging/1.3.5/commons-logging-1.3.5.jar"
+                        },
+                        {
+                            "name": "commons-logging",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/commons-logging/commons-logging/1.3.5/commons-logging-1.3.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jakarta.activation",
+                    "name": "jakarta.activation-api",
+                    "version": "2.1.4",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.activation-api",
+                            "path": "/home/sofiane/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.4/jakarta.activation-api-2.1.4.jar"
+                        },
+                        {
+                            "name": "jakarta.activation-api",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.4/jakarta.activation-api-2.1.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework",
+                    "name": "spring-core",
+                    "version": "7.0.3",
+                    "artifacts": [
+                        {
+                            "name": "spring-core",
+                            "path": "/home/sofiane/.m2/repository/org/springframework/spring-core/7.0.3/spring-core-7.0.3.jar"
+                        },
+                        {
+                            "name": "spring-core",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/org/springframework/spring-core/7.0.3/spring-core-7.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vaadin.external.google",
+                    "name": "android-json",
+                    "version": "0.0.20131108.vaadin1",
+                    "artifacts": [
+                        {
+                            "name": "android-json",
+                            "path": "/home/sofiane/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar"
+                        },
+                        {
+                            "name": "android-json",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apiguardian",
+                    "name": "apiguardian-api",
+                    "version": "1.1.2",
+                    "artifacts": [
+                        {
+                            "name": "apiguardian-api",
+                            "path": "/home/sofiane/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar"
+                        },
+                        {
+                            "name": "apiguardian-api",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.ow2.asm",
+                    "name": "asm",
+                    "version": "9.7.1",
+                    "artifacts": [
+                        {
+                            "name": "asm",
+                            "path": "/home/sofiane/.m2/repository/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+                        },
+                        {
+                            "name": "asm",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/org/ow2/asm/asm/9.7.1/asm-9.7.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.platform",
+                    "name": "junit-platform-commons",
+                    "version": "6.0.2",
+                    "artifacts": [
+                        {
+                            "name": "junit-platform-commons",
+                            "path": "/home/sofiane/.m2/repository/org/junit/platform/junit-platform-commons/6.0.2/junit-platform-commons-6.0.2.jar"
+                        },
+                        {
+                            "name": "junit-platform-commons",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/org/junit/platform/junit-platform-commons/6.0.2/junit-platform-commons-6.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.jayway.jsonpath",
+                    "name": "json-path",
+                    "version": "2.10.0",
+                    "artifacts": [
+                        {
+                            "name": "json-path",
+                            "path": "/home/sofiane/.m2/repository/com/jayway/jsonpath/json-path/2.10.0/json-path-2.10.0.jar"
+                        },
+                        {
+                            "name": "json-path",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/com/jayway/jsonpath/json-path/2.10.0/json-path-2.10.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework",
+                    "name": "spring-expression",
+                    "version": "7.0.3",
+                    "artifacts": [
+                        {
+                            "name": "spring-expression",
+                            "path": "/home/sofiane/.m2/repository/org/springframework/spring-expression/7.0.3/spring-expression-7.0.3.jar"
+                        },
+                        {
+                            "name": "spring-expression",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/org/springframework/spring-expression/7.0.3/spring-expression-7.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.logging.log4j",
+                    "name": "log4j-to-slf4j",
+                    "version": "2.25.3",
+                    "artifacts": [
+                        {
+                            "name": "log4j-to-slf4j",
+                            "path": "/home/sofiane/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.25.3/log4j-to-slf4j-2.25.3.jar"
+                        },
+                        {
+                            "name": "log4j-to-slf4j",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.25.3/log4j-to-slf4j-2.25.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-starter",
+                    "version": "4.0.2",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-starter",
+                            "path": "/home/sofiane/.m2/repository/org/springframework/boot/spring-boot-starter/4.0.2/spring-boot-starter-4.0.2.jar"
+                        },
+                        {
+                            "name": "spring-boot-starter",
+                            "classifier": "sources",
+                            "path": "/home/sofiane/.m2/repository/org/springframework/boot/spring-boot-starter/4.0.2/spring-boot-starter-4.0.2-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "javaSemanticDBVersion": "0.10.3",
+    "semanticDBVersion": "4.14.4",
+    "supportedScalaVersions": [
+        "2.13.16",
+        "2.12.21"
+    ],
+    "enableBestEffortMode": false
+}
