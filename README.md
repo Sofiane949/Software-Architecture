@@ -376,16 +376,3 @@ curl http://localhost:8080/api/security-alerts/severity/MEDIUM \
 | GET | /api/security-alerts/type/{t} | Oui | ADMIN | Filtrer alertes par type |
 
 ---
-
-## Ce qui vient du cours
-
-- Les entites JPA avec annotations (`@Entity`, `@Table`, `@ManyToMany`, `@ManyToOne`, `@OneToMany`, `@JoinTable`)
-- Les repositories Spring Data (`JpaRepository`)
-- La separation User / Credential (le credential est une entite a part, pas un champ dans User)
-- L'entite AuthToken pour stocker et revoquer les tokens
-- L'initialisation avec `@PostConstruct` dans un `@Component`
-- Le hashing avec SHA-256 (HashUtil)
-- L'architecture en couches (controller / service / repository / entity)
-- Les REST controllers avec les annotations `@RestController`, `@RequestMapping`, `@GetMapping`, `@PostMapping`, etc.
-- La gestion des roles et authorities
-- Le CRUD produit complet
